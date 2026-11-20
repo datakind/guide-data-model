@@ -116274,7 +116274,7 @@
           "Description": "UDTS-owned tenant-scoped identifier for one allowable grade definition.",
           "Key": "FK",
           "FKReference": "GradeDefinitionLookup.GradeDefinitionIdentifier",
-          "Nullable": "N",
+          "Nullable": "Y",
           "GenericDataType": "String (str or text)",
           "Default": null,
           "Example": 1001,
