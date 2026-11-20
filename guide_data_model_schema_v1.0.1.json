@@ -1,11 +1,11 @@
 {
   "format_version": "1.0.0",
   "source": {
-    "filename": "guide_data_model_schema_v0.3.16_cleaned.xlsx",
-    "sha256": "1c72f352e78ff7e860e11e6e3a211c1110fd277ab9e9e561f5316e4f3c1260b1"
+    "filename": "guide_data_model_schema_v1.0.1.xlsx",
+    "sha256": "e04dc8960af5888ff194c8d61eb44267da725b679457e07381c52159f2295fa9"
   },
   "conversion": {
-    "job_id": "4407d0f8a7bb9ce9baca63373fbdba6628ea5e7336e8952960c8842be6c71d13",
+    "job_id": "1294afa70019be47c4d0b694dfcd45b3a72cacdceb4600f971279bedae05782d",
     "profile_sha256": "dd4837540d14ee464f49672e68cc448712e028f76b220daa5ff6a8f4e89de4f9",
     "openpyxl_version": "3.1.5",
     "rules": {
@@ -116248,6 +116248,40 @@
           "Comment": null
         },
         {
+          "VersionAdded": "v1.0.1",
+          "VersionUpdated": null,
+          "Entity": "Academics",
+          "Sub-Entity": "Enrollment",
+          "Object": "ScoreScaleValue",
+          "Column": "ScoreScaleIdentifier",
+          "Description": "Unique identifier for the score scale",
+          "Key": "FK",
+          "FKReference": "ScoreScale.ScoreScaleIdentifier",
+          "Nullable": "N",
+          "GenericDataType": "String (str or text)",
+          "Default": null,
+          "Example": 1001,
+          "ExampleEnumerations": null,
+          "Comment": null
+        },
+        {
+          "VersionAdded": "v1.0.1",
+          "VersionUpdated": null,
+          "Entity": "Academics",
+          "Sub-Entity": "Enrollment",
+          "Object": "ScoreScaleValue",
+          "Column": "GradeDefinitionIdentifier",
+          "Description": "UDTS-owned tenant-scoped identifier for one allowable grade definition.",
+          "Key": "FK",
+          "FKReference": "GradeDefinitionLookup.GradeDefinitionIdentifier",
+          "Nullable": "Y",
+          "GenericDataType": "String (str or text)",
+          "Default": null,
+          "Example": 1001,
+          "ExampleEnumerations": null,
+          "Comment": null
+        },
+        {
           "VersionAdded": "v0.1.0",
           "VersionUpdated": null,
           "Entity": "Academics",
@@ -148365,7 +148399,9 @@
         7941,
         7942,
         7943,
-        7944
+        7944,
+        7945,
+        7946
       ],
       "non_table_rows": [],
       "blank_rows": [],
