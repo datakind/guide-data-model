@@ -116300,7 +116300,7 @@
         },
         {
           "VersionAdded": "v0.1.0",
-          "VersionUpdated": null,
+          "VersionUpdated": "v1.0.1",
           "Entity": "Academics",
           "Sub-Entity": "Enrollment",
           "Object": "ScoreScaleValue",
@@ -116309,9 +116309,9 @@
           "Key": null,
           "FKReference": null,
           "Nullable": "Y",
-          "GenericDataType": "String (str or text)",
+          "GenericDataType": "Integer (int)",
           "Default": null,
-          "Example": "90-100",
+          "Example": 80,
           "ExampleEnumerations": null,
           "Comment": null
         },
@@ -116326,9 +116326,9 @@
           "Key": null,
           "FKReference": null,
           "Nullable": "Y",
-          "GenericDataType": "String (str or text)",
+          "GenericDataType": "Integer (int)",
           "Default": null,
-          "Example": "A",
+          "Example": 90,
           "ExampleEnumerations": null,
           "Comment": null
         },
